@@ -41,7 +41,8 @@ const EventTypes = {};
   "TASK_DIRECTORY_CHANGE",
   "TASK_DIRECTORY_ERROR",
   "NODE_STATE_ERROR",
-  "NODE_STATE_SUCCESS"
+  "NODE_STATE_SUCCESS",
+  "CONSOLE_CONNNECT_SUCCESS"
 ].forEach(function(eventType) {
   EventTypes[eventType] = eventType;
 });

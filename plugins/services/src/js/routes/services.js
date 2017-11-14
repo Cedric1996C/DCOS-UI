@@ -174,13 +174,7 @@ const serviceRoutes = [
                 isTab: true,
                 path: "console",
                 title: "Console",
-                type: Route,
-                children: [
-                  {
-                    path: ":filePath",
-                    type: Route
-                  }
-                ]
+                type: Route
               },
               {
                 component: VolumeTable,
