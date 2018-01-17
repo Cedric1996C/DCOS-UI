@@ -32,7 +32,7 @@ function getJobSchedule(jobSchedules) {
       return (
         <BreadcrumbSupplementalContent>
           <Tooltip
-            content={prettycron.toString(schedule.cron)}
+            // content={prettycron.toString(schedule.cron)}
             maxWidth={250}
             wrapText={true}
           >

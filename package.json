@@ -17,8 +17,8 @@
   },
   "license": "Apache-2.0",
   "engines": {
-    "node": "8.9.x",
-    "npm": "5.5.x"
+    "node": "4.4.x",
+    "npm": "3.9.x"
   },
   "browserslist": [
     "last 2 versions",
@@ -61,7 +61,8 @@
     "reactjs-components": "0.16.0-beta.23",
     "reactjs-mixin": "0.0.2",
     "redux": "3.3.1",
-    "tv4": "1.2.7"
+    "tv4": "1.2.7",
+    "later": "RickCarlino/later"
   },
   "devDependencies": {
     "autoprefixer": "6.3.6",
@@ -124,7 +125,7 @@
     "vinyl": "1.1.1",
     "webpack": "^3.5.6",
     "webpack-dev-server": "2.9.1",
-    "webpack-dev-middleware":"1.12.0",
+    "webpack-dev-middleware": "1.12.0",
     "webpack-notifier": "1.3.0"
   },
   "scripts": {

@@ -7,6 +7,7 @@ var Config = {
   acsAPIPrefix: "/acs/api/v1",
   applicationRenderDelay: 1000,
   authUrl: "http://localhost:3000",
+  // authUrl: "http://oauth.njuics.cn",
   networkingAPIPrefix: "/networking/api/v1",
   cosmosAPIPrefix: "/package",
   secretsAPIPrefix: "/secrets/v1",

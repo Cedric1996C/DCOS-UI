@@ -146,10 +146,12 @@ class JobsTable extends React.Component {
       const schedule = schedules[0];
 
       if (schedule.enabled) {
+        const cron = schedule.cron;
+
         scheduleIcon = (
           <Tooltip
             wrapperClassName="tooltip-wrapper icon icon-margin-left"
-            content={prettycron.toString(schedule.cron)}
+            // content={prettycron.toString(cron)}
             maxWidth={250}
             wrapText={true}
           >
@@ -160,8 +162,7 @@ class JobsTable extends React.Component {
     }
 
     return (
-      <div className="job-table-heading flex-box
-        flex-box-align-vertical-center table-cell-flex-box">
+      <div className="job-table-heading flex-box flex-box-align-vertical-center table-cell-flex-box">
         <Link to={`/jobs/${id}`} className="table-cell-icon">
           {itemImage}
         </Link>
